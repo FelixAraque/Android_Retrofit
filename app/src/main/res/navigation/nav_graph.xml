@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/ZonasFragment">
+
+    <fragment
+        android:id="@+id/ZonasFragment"
+        android:name="com.felixaraque.android_retrofit.view.ZonasFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_zonas">
+
+        <action
+            android:id="@+id/action_ZonasFragment_to_ZonaDetailFragment"
+            app:destination="@id/ZonaDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ZonaDetailFragment"
+        android:name="com.felixaraque.android_retrofit.view.ZonaDetailFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_zona_detail">
+
+        <action
+            android:id="@+id/action_ZonaDetailFragment_to_RecursosFragment"
+            app:destination="@id/RecursosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/RecursosFragment"
+        android:name="com.felixaraque.android_retrofit.view.RecursosFragment"
+        android:label="@string/third_fragment_label"
+        tools:layout="@layout/fragment_recursos">
+
+        <action
+            android:id="@+id/action_RecursosFragment_to_RecursoDetailFragment"
+            app:destination="@id/RecursoDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/RecursoDetailFragment"
+        android:name="com.felixaraque.android_retrofit.view.RecursoDetailFragment"
+        android:label="@string/fourth_fragment_label"
+        tools:layout="@layout/fragment_recurso_detail">
+    </fragment>
+</navigation>

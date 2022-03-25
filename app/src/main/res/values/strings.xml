@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Android_Retrofit</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Zonas</string>
+    <string name="second_fragment_label">Detalle zona</string>
+    <string name="third_fragment_label">Recursos</string>
+    <string name="fourth_fragment_label">Detalle recurso</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment</string>
+    <string name="hello_third_fragment">Hello third fragment</string>
+    <string name="hello_fourth_fragment">Hello fourth fragment</string>
+    <string name="action_register">register</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>
